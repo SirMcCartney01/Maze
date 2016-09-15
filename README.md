@@ -1,5 +1,7 @@
 # Maze
+
 Maze for graphs
 
-Cesar Placido
-Antonio Campos
+* Cesar Placido
+* Antonio Campos
+
