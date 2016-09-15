@@ -35,9 +35,9 @@ public class Main extends JFrame{
         boolean figura = false;
         for (int i = 0; i < 10; i++) {
             do {
-                width = rand.nextInt(200) + 50;
-                axisX = rand.nextInt(1700) +1;
-                axisY = rand.nextInt(900) +1;
+                width = rand.nextInt(150) + 50;
+                axisX = rand.nextInt(900) +1;
+                axisY = rand.nextInt(700) +1;
                 for (position = 0; position < 30; position++){
                     if (array[position] >= axisX && array[position] <= width + axisX && array[position] <= width + axisY && array[position] >= axisY) {
                         repeated = true;
@@ -61,7 +61,7 @@ public class Main extends JFrame{
             } else {
                 figura = true;
                 g.setColor(new Color(147, 29, 32));
-                g.fillRect(axisX, axisY, width, width);//FOR SQUARE
+                g.fillRect(axisX, axisY, width, width); // FOR SQUARE
             }
         }
 
